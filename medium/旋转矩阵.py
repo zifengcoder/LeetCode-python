@@ -7,7 +7,7 @@ class Solution(object):
         :rtype: None Do not return anything, modify matrix in-place instead.
         """
         for i in range(len(matrix)):
-            for j in range(i+1):
+            for j in range(i):
                 matrix[i][j], matrix[j][i] = matrix[j][i], matrix[i][j]
         for k in matrix:
             k.reverse()
