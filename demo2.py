@@ -1,2 +1,3 @@
-a = [1, 2, 3]
-print a.pop()
+words = ["gin", "zen", "gig", "msg"]
+for item in words:
+    pass
