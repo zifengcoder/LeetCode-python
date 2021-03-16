@@ -12,6 +12,7 @@ class Solution(object):
         :rtype: ListNode
         """
         a, b = l1, l2
+        # 伪头节点
         c = ListNode(0)
         prev = c
         while a and b:
